@@ -91,7 +91,8 @@
 
         </tr>
         <tr class="Header">
-            <td colspan="2">unter der Nummer <b>{{1.message.call.customer.number}}</b></td>
+            <!--hier noch unterscheiden zwischen alternative Nummer und Nummer aus google sheets-->
+            <td colspan="2">unter der Nummer <b>{{1.message.call.customer.Telefonnummer}}</b></td>
 
         </tr>
         <tr class="Header">
@@ -111,11 +112,11 @@
                 </tr>
                 <tr>
                     <td>E-Mail:</td>
-                    <td><b>{{1.message.analysis.structuredData.E-Mail}}</b></td>
+                    <td><b>{{1.message.analysis.structuredData.Email}}</b></td>
                 </tr>
                 <tr>
                     <td>alt. Nummer:</td>
-                    <td><b>{{1.message.analysis.structuredData.Nummer}}</b></td>
+                    <td><b>{{1.message.analysis.structuredData.Telefonnummer}}</b></td>
                 </tr>
 
             </table>
